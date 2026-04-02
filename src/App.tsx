@@ -14,6 +14,7 @@ import { Cart } from './pages/Cart';
 import { Checkout } from './pages/Checkout';
 import { About } from './pages/About';
 import { AIService } from './pages/AIService';
+import { FloatingAI } from './components/FloatingAI';
 import { AnimatePresence, motion } from 'motion/react';
 
 const ScrollToTop = () => {
@@ -60,6 +61,7 @@ export default function App() {
             </Routes>
           </main>
           <Footer />
+          <FloatingAI />
         </div>
       </Router>
     </CartProvider>
